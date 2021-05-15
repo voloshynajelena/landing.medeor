@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
+}
+
 body {
   font-family: 'Mulish', sans-serif;
   margin: 0;
