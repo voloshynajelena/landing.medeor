@@ -215,5 +215,98 @@ p {
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
 
+.footer-content {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer-block {
+  width: 20%;
+  padding: 2vw;
+  box-sizing: border-box;
+  color: white;
+  min-width: 200px;
+}
+
+.footer-info .footer-logo {
+  max-width: 70%;
+}
+
+.footer-info .footer-logo img {
+  max-width: 100%;
+}
+
+.footer-text p {
+  color: white;
+  opacity: 0.6;
+  font-size: 1vw;
+}
+
+.third {
+  width: 40%;
+}
+
+.footer-block h5 {
+  font-size: 1.8vw;
+  line-height: 3.7vw;
+  margin: 0;
+  font-weight: 400;
+}
+
+.footer-menu .menu {
+  flex-direction: column;
+  padding: 0;
+}
+
+.footer-menu .menu-item {
+  padding: 0.5vw 0;
+  opacity: 1;
+}
+
+.footer-menu .menu-item a, .contacts div a, .contacts div span {
+  color: white;
+  opacity: 0.6;
+  font-size: 1vw;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin: 1vw 0;
+}
+
+.contacts div {
+  font-size: 1vw;
+  line-height: 1.5vw;
+  padding: 0.5vw 0;
+}
+.contacts div i {
+  font-size: 1.5vw;
+  margin-right: 0.5vw;
+}
+
+
+.footer-form input {
+  height: 1em;
+  padding: 1.5em;
+  border: none;
+  margin: 1em 0;
+  border-radius: 4vw;
+  outline: none;
+  font-size: 1vw;
+}
+
+.footer-form .btn {
+  font-size: 1vw;
+  margin: 1em 0;
 }
