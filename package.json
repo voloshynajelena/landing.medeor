@@ -1,0 +1,29 @@
+{
+  "name": "landing.medeor",
+  "version": "1.0.0",
+  "description": "Landing page for medeor demo project",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voloshynajelena/landing.medeor.git"
+  },
+  "keywords": [
+    "landing",
+    "page",
+    "medeor",
+    "html",
+    "css"
+  ],
+  "author": "Elena Voloshyna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voloshynajelena/landing.medeor/issues"
+  },
+  "homepage": "https://github.com/voloshynajelena/landing.medeor#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
