@@ -36,14 +36,14 @@ header {
   width: 80vw;
 }
 
-.menu {
+.menu, .footer-menu-nav {
   display: flex;
   list-style: none;
   justify-content: flex-end;
   margin: 1vw 0;
 }
 
-.menu-item {
+.menu-item, .footer-menu-item {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -54,11 +54,8 @@ header {
   opacity: 0.5;
 }
 
-.menu-item.active {
 
-}
-
-.menu-item a {
+.menu-item a, .footer-menu-item a {
   /* 1f1534-hyfen */
   color: #1F1534;
 
@@ -265,17 +262,17 @@ p {
   font-weight: 400;
 }
 
-.footer-menu .menu {
+.footer-menu .footer-menu-nav {
   flex-direction: column;
   padding: 0;
 }
 
-.footer-menu .menu-item {
+.footer-menu .footer-menu-item {
   padding: 0.5vw 0;
   opacity: 1;
 }
 
-.footer-menu .menu-item a, .contacts div a, .contacts div span {
+.footer-menu .footer-menu-item a, .contacts div a, .contacts div span {
   color: white;
   opacity: 0.6;
   font-size: 1vw;
@@ -305,7 +302,7 @@ p {
   padding: 1.5em;
   border: none;
   margin: 1em 0;
-  border-radius: 4vw;
+  border-radius: 15vw;
   outline: none;
   font-size: 1vw;
 }
