@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
+  scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */
 }
 
 body {
@@ -36,28 +36,35 @@ header {
   width: 80vw;
 }
 
-.menu, .footer-menu-nav {
+.menu,
+.footer-menu-nav {
   display: flex;
   list-style: none;
   justify-content: flex-end;
   margin: 1vw 0;
 }
 
-.menu-item, .footer-menu-item {
+.menu-item,
+.footer-menu-item {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1vw;
   line-height: 1.5vw;
   padding: 0.5vw 1.5vw;
-  
+
   opacity: 0.5;
 }
 
+a {
+  display: inline-block;
+  max-width: 100%;
+}
 
-.menu-item a, .footer-menu-item a {
+.menu-item a,
+.footer-menu-item a {
   /* 1f1534-hyfen */
-  color: #1F1534;
+  color: #1f1534;
 
   text-decoration: none;
 }
@@ -87,9 +94,9 @@ p {
   font-weight: 300;
   font-size: 1.3vw;
   line-height: 2.4vw;
-  
-  color: #7D7987;
-  
+
+  color: #7d7987;
+
   mix-blend-mode: normal;
 }
 
@@ -130,7 +137,6 @@ p {
 }
 
 .image-block {
-
 }
 
 .image-block img {
@@ -152,15 +158,14 @@ p {
 }
 
 .btn-fill {
-
 }
 
 .btn-transparent {
   background-color: white;
-  border: 0.1vw solid #458FF6;
+  border: 0.1vw solid #458ff6;
   box-sizing: border-box;
   border-radius: 55px;
-  color: #458FF6;
+  color: #458ff6;
 }
 
 .services {
@@ -183,7 +188,7 @@ p {
   text-align: left;
   margin: 1vw;
   min-width: 300px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 1.5vw;
   padding: 2.5vw;
@@ -219,7 +224,7 @@ p {
   display: flex;
   justify-content: center;
   min-height: 400px;
-  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
 }
 
 .footer-content {
@@ -272,7 +277,9 @@ p {
   opacity: 1;
 }
 
-.footer-menu .footer-menu-item a, .contacts div a, .contacts div span {
+.footer-menu .footer-menu-item a,
+.contacts div a,
+.contacts div span {
   color: white;
   opacity: 0.6;
   font-size: 1vw;
@@ -296,7 +303,6 @@ p {
   margin-right: 0.5vw;
 }
 
-
 .footer-form input {
   height: 1em;
   padding: 1.5em;
@@ -310,4 +316,14 @@ p {
 .footer-form .btn {
   font-size: 1vw;
   margin: 1em 0;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.cursor_pointer:hover {
+  cursor: pointer;
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.5s; /* don't forget to set a duration! */
 }
