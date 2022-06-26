@@ -1,282 +1,258 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mobile.css" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/static/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/static/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/static/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/static/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="/static/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
-    <title>THE MEDEOR</title>
-  </head>
-  <body>
-    <header>
-      <div class="header">
-        <div class="header-logo">
-          <div class="logo">
-            <img alt="logo" src="img/logo.png" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mobile.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
+  <link rel="manifest" href="/static/site.webmanifest" />
+  <link rel="mask-icon" href="/static/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>THE MEDEOR</title>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="header-logo">
+        <div class="logo">
+          <img alt="logo" src="img/logo.png" />
+        </div>
+      </div>
+      <!-- Navigation -->
+      <nav class="header-nav">
+        <ul class="menu">
+          <li class="cursor_pointer menu-item">
+            <a href="#home">Home</a>
+          </li>
+          <li class="cursor_pointer menu-item">
+            <a href="#band">Band</a>
+          </li>
+          <li class="cursor_pointer menu-item">
+            <a href="#tour">Tour</a>
+          </li>
+          <li class="cursor_pointer menu-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="cursor_pointer hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Main content -->
+  <section class="container">
+    <div class="container-block">
+      <div class="container-text">
+        <h2>Virtual healthcare for you</h2>
+        <p>
+          Medeor provides progressive, and affordable healthcare, accessible
+          on mobile and online for everyone
+        </p>
+        <a href="https://medeor.vercel.app" target="_blank">
+          <button class="btn btn-fill cursor_pointer">Try for free</button>
+        </a>
+        <button class="btn btn-transparent cursor_pointer">
+          Consult today
+        </button>
+      </div>
+      <div class="container-image">
+        <div class="image-block">
+          <img alt="image_1" src="img/image_1.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container services-section" id="home">
+    <div class="container-block">
+      <div class="container-text text-center">
+        <h2>Our Services</h2>
+        <hr />
+        <p>
+          Our solution provide to you the best choices for you. Adjust it to
+          your health needs and make sure your undergo treatment with our
+          highly qualified doctors you can consult with us which type of
+          service is suitable for your health.
+        </p>
+        <div class="services">
+          <div class="service-block">
+            <div class="service-icon">
+              <img alt="service" src="img/search.png" />
+            </div>
+            <h5>Search doctor</h5>
+            <p>
+              Choose your doctor from thousands of specialist, general, and
+              trusted hospitals
+            </p>
+          </div>
+          <div class="service-block">
+            <div class="service-icon">
+              <img alt="service" src="img/pharm.png" />
+            </div>
+            <h5>Online result</h5>
+            <p>
+              Check your tests results with our mobile application with a
+              simple delivery system
+            </p>
+          </div>
+          <div class="service-block">
+            <div class="service-icon">
+              <img alt="service" src="img/consultation.png" />
+            </div>
+            <h5>Consultation</h5>
+            <p>
+              Free consultation with our trusted doctors and get the best
+              recomendations
+            </p>
+          </div>
+          <div class="service-block">
+            <div class="service-icon">
+              <img alt="service" src="img/details.png" />
+            </div>
+            <h5>Details info</h5>
+            <p>You can found detail information for every tests.</p>
+          </div>
+          <div class="service-block">
+            <div class="service-icon">
+              <img alt="service" src="img/care.png" />
+            </div>
+            <h5>Emergency care</h5>
+            <p>You can get 24/7 urgent care for business needs.</p>
+          </div>
+          <div class="service-block">
+            <div class="service-icon">
+              <img alt="service" src="img/tracking.png" />
+            </div>
+            <h5>Tracking</h5>
+            <p>Track and save tests history and health data</p>
           </div>
         </div>
-        <!-- Navigation -->
-        <nav class="header-nav">
-          <ul class="menu">
-            <li class="cursor_pointer menu-item">
+        <a href="https://medeor.vercel.app" target="_blank">
+          <button class="btn btn-transparent cursor_pointer">
+            Explore all features
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="container" id="band">
+    <div class="container-block">
+      <div class="container-image">
+        <div class="image-block">
+          <img alt="image_1" src="img/image_1.png" />
+        </div>
+      </div>
+      <div class="container-text-right">
+        <h2>Download our mobile apps (coming soon)</h2>
+        <p>
+          Our dedicated patient engagement app and web portal allow you to
+          access information instantaneously (no tedeous form, long calls, or
+          administrative hassle) and securely
+        </p>
+        <button class="btn btn-transparent cursor_pointer">Learn more</button>
+      </div>
+    </div>
+  </section>
+  <section class="container" id="tour">
+    <div class="container-block">
+      <div class="container-text">
+        <h2>Leading healthcare providers</h2>
+        <p>
+          Medeor provides progressive, and affordable healthcare, accessible
+          on mobile and online for everyone. To us, it’s not just work. We
+          take pride in the solutions we deliver
+        </p>
+        <a href="https://medeor.vercel.app" target="_blank">
+          <button class="btn btn-transparent cursor_pointer">
+            Learn more
+          </button>
+        </a>
+      </div>
+      <div class="container-image">
+        <div class="image-block">
+          <img alt="image_1" src="img/image_1.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="footer-content">
+      <div class="footer-block third">
+        <div class="footer-info">
+          <div class="footer-logo">
+            <img alt="logo" src="img/logo-white.png" />
+          </div>
+          <div class="footer-text">
+            <p>
+              Medeor provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone
+            </p>
+            <p>©Medeor 2021. All rights reserved</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-block">
+        <div class="footer-menu">
+          <h5>Menu</h5>
+          <ul class="footer-menu-nav">
+            <li class="footer-menu-item">
               <a href="#home">Home</a>
             </li>
-            <li class="cursor_pointer menu-item">
+            <li class="footer-menu-item">
               <a href="#band">Band</a>
             </li>
-            <li class="cursor_pointer menu-item">
+            <li class="footer-menu-item">
               <a href="#tour">Tour</a>
             </li>
-            <li class="cursor_pointer menu-item">
+            <li class="footer-menu-item">
               <a href="#contact">Contact</a>
             </li>
           </ul>
-          <div class="cursor_pointer hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- Main content -->
-    <section class="container">
-      <div class="container-block">
-        <div class="container-text">
-          <h2>Virtual healthcare for you</h2>
-          <p>
-            Medeor provides progressive, and affordable healthcare, accessible
-            on mobile and online for everyone
-          </p>
-          <a href="https://medeor.vercel.app" target="_blank">
-            <button class="btn btn-fill cursor_pointer">Try for free</button>
-          </a>
-          <button class="btn btn-transparent cursor_pointer">
-            Consult today
-          </button>
         </div>
-        <div class="container-image">
-          <div class="image-block">
-            <img alt="image_1" src="img/image_1.png" />
+      </div>
+      <div class="footer-block">
+        <div class="footer-contacts">
+          <h5>Contacts</h5>
+          <div class="contacts">
+            <!-- <div><i class="fa fa-phone"></i> <a href="tel:+12345678900">+12345678900</a></div> -->
+            <div>
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:madmweb@gmail.com">madmweb@gmail.com</a>
+            </div>
+            <div>
+              <i class="fa fa-map-marker"></i><span>Latvia, Riga</span>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="container services-section" id="home">
-      <div class="container-block">
-        <div class="container-text text-center">
-          <h2>Our Services</h2>
-          <hr />
-          <p>
-            Our solution provide to you the best choices for you. Adjust it to
-            your health needs and make sure your undergo treatment with our
-            highly qualified doctors you can consult with us which type of
-            service is suitable for your health
-          </p>
-          <div class="services">
-            <div class="service-block">
-              <div class="service-icon">
-                <img alt="service" src="img/search.png" />
-              </div>
-              <h5>Search doctor</h5>
-              <p>
-                Choose your doctor from thousands of specialist, general, and
-                trusted hospitals
-              </p>
-            </div>
-            <div class="service-block">
-              <div class="service-icon">
-                <img alt="service" src="img/pharm.png" />
-              </div>
-              <h5>Online result</h5>
-              <p>
-                Check your tests results with our mobile application with a
-                simple delivery system
-              </p>
-            </div>
-            <div class="service-block">
-              <div class="service-icon">
-                <img alt="service" src="img/consultation.png" />
-              </div>
-              <h5>Consultation</h5>
-              <p>
-                Free consultation with our trusted doctors and get the best
-                recomendations
-              </p>
-            </div>
-            <div class="service-block">
-              <div class="service-icon">
-                <img alt="service" src="img/details.png" />
-              </div>
-              <h5>Details info</h5>
-              <p>You can found detail information for every tests.</p>
-            </div>
-            <div class="service-block">
-              <div class="service-icon">
-                <img alt="service" src="img/care.png" />
-              </div>
-              <h5>Emergency care</h5>
-              <p>You can get 24/7 urgent care for business needs.</p>
-            </div>
-            <div class="service-block">
-              <div class="service-icon">
-                <img alt="service" src="img/tracking.png" />
-              </div>
-              <h5>Tracking</h5>
-              <p>Track and save tests history and health data</p>
-            </div>
-          </div>
-          <a href="https://medeor.vercel.app" target="_blank">
-            <button class="btn btn-transparent cursor_pointer">
-              Explore all features
-            </button>
-          </a>
+      <div class="footer-block">
+        <div class="footer-form">
+          <h5>Consult today</h5>
+          <form action="POST">
+            <input type="text" placeholder="Your name" />
+            <input type="text" placeholder="Your phone" />
+            <button class="btn btn-fill cursor_pointer">Send</button>
+          </form>
         </div>
       </div>
-    </section>
-    <section class="container" id="band">
-      <div class="container-block">
-        <div class="container-image">
-          <div class="image-block">
-            <img alt="image_1" src="img/image_1.png" />
-          </div>
-        </div>
-        <div class="container-text-right">
-          <h2>Download our mobile apps (coming soon)</h2>
-          <p>
-            Our dedicated patient engagement app and web portal allow you to
-            access information instantaneously (no tedeous form, long calls, or
-            administrative hassle) and securely
-          </p>
-          <button class="btn btn-transparent cursor_pointer">Learn more</button>
-        </div>
-      </div>
-    </section>
-    <section class="container" id="tour">
-      <div class="container-block">
-        <div class="container-text">
-          <h2>Leading healthcare providers</h2>
-          <p>
-            Medeor provides progressive, and affordable healthcare, accessible
-            on mobile and online for everyone. To us, it’s not just work. We
-            take pride in the solutions we deliver
-          </p>
-          <a href="https://medeor.vercel.app" target="_blank">
-            <button class="btn btn-transparent cursor_pointer">
-              Learn more
-            </button>
-          </a>
-        </div>
-        <div class="container-image">
-          <div class="image-block">
-            <img alt="image_1" src="img/image_1.png" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer -->
-    <footer class="footer" id="contact">
-      <div class="footer-content">
-        <div class="footer-block third">
-          <div class="footer-info">
-            <div class="footer-logo">
-              <img alt="logo" src="img/logo-white.png" />
-            </div>
-            <div class="footer-text">
-              <p>
-                Medeor provides progressive, and affordable healthcare,
-                accessible on mobile and online for everyone
-              </p>
-              <p>©Medeor 2021. All rights reserved</p>
-            </div>
-          </div>
-        </div>
-        <div class="footer-block">
-          <div class="footer-menu">
-            <h5>Menu</h5>
-            <ul class="footer-menu-nav">
-              <li class="footer-menu-item">
-                <a href="#home">Home</a>
-              </li>
-              <li class="footer-menu-item">
-                <a href="#band">Band</a>
-              </li>
-              <li class="footer-menu-item">
-                <a href="#tour">Tour</a>
-              </li>
-              <li class="footer-menu-item">
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-block">
-          <div class="footer-contacts">
-            <h5>Contacts</h5>
-            <div class="contacts">
-              <!-- <div><i class="fa fa-phone"></i> <a href="tel:+12345678900">+12345678900</a></div> -->
-              <div>
-                <i class="fa fa-envelope"></i>
-                <a href="mailto:madmweb@gmail.com">madmweb@gmail.com</a>
-              </div>
-              <div>
-                <i class="fa fa-map-marker"></i><span>Latvia, Riga</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-block">
-          <div class="footer-form">
-            <h5>Consult today</h5>
-            <form action="POST">
-              <input type="text" placeholder="Your name" />
-              <input type="text" placeholder="Your phone" />
-              <button class="btn btn-fill cursor_pointer">Send</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
-  <script src="main.js"></script>
+    </div>
+  </footer>
+</body>
+<script src="main.js"></script>
+
 </html>
