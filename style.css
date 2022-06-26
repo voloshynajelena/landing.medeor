@@ -1,329 +1,342 @@
 html {
-  scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */
+   scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */
 }
 
 body {
-  font-family: 'Mulish', sans-serif;
-  margin: 0;
-  padding: 0;
+   font-family: "Mulish", sans-serif;
+   margin: 0;
+   padding: 0;
 }
 
 header {
-  display: flex;
-  justify-content: center;
+   display: flex;
+   justify-content: center;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  width: 80vw;
-  padding-top: 3vh;
+   display: flex;
+   justify-content: space-between;
+   width: 80vw;
+   padding-top: 3vh;
 }
 
 .header-logo {
-  max-width: 15vw;
+   max-width: 15vw;
 }
 
 .logo {
-  width: 100%;
+   width: 100%;
 }
 
 .logo img {
-  width: 100%;
+   width: 100%;
 }
 
 .header-nav {
-  width: 80vw;
+   width: 80vw;
 }
 
 .menu,
 .footer-menu-nav {
-  display: flex;
-  list-style: none;
-  justify-content: flex-end;
-  margin: 1vw 0;
+   display: flex;
+   list-style: none;
+   justify-content: flex-end;
+   margin: 1vw 0;
 }
 
 .menu-item,
 .footer-menu-item {
-  font-family: 'Mulish', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1vw;
-  line-height: 1.5vw;
-  padding: 0.5vw 1.5vw;
+   font-family: "Mulish", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1vw;
+   line-height: 1.5vw;
+   padding: 0.5vw 1.5vw;
 
-  opacity: 0.5;
+   opacity: 0.5;
 }
 
 a {
-  display: inline-block;
-  max-width: 100%;
+   display: inline-block;
+   max-width: 100%;
 }
 
 .menu-item a,
 .footer-menu-item a {
-  /* 1f1534-hyfen */
-  color: #1f1534;
+   /* 1f1534-hyfen */
+   color: #1f1534;
 
-  text-decoration: none;
+   text-decoration: none;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin-bottom: 10vh;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   margin-bottom: 10vh;
 }
 
 .container h2 {
-  font-family: Mulish;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 3.3vw;
-  line-height: 4vw;
+   font-family: Mulish;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 3.3vw;
+   line-height: 4vw;
 
-  color: #000000;
+   color: #000000;
 
-  mix-blend-mode: normal;
+   mix-blend-mode: normal;
 }
 
 p {
-  font-family: Mulish;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 1.3vw;
-  line-height: 2.4vw;
+   font-family: Mulish;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 1.3vw;
+   line-height: 2.4vw;
 
-  color: #7d7987;
+   color: #7d7987;
 
-  mix-blend-mode: normal;
+   mix-blend-mode: normal;
 }
 
 .container-block {
-  width: 80vw;
-  display: flex;
+   width: 80vw;
+   display: flex;
 }
 
 .container-text {
-  padding: 4vw 7vw 0 0;
-  width: 45vw;
+   padding: 4vw 7vw 0 0;
+   width: 45vw;
 }
 
 .container-text-right {
-  padding: 4vw 0 0 7vw;
-  width: 45vw;
+   padding: 4vw 0 0 7vw;
+   width: 45vw;
 }
 
 .text-center {
-  width: 100%;
-  padding: 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+   width: 100%;
+   padding: 0;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .text-center p {
-  width: 80%;
+   width: 80%;
 }
 
 .text-center hr {
-  width: 4vw;
+   width: 4vw;
 }
 
 .container-image {
-  width: 55vw;
+   width: 55vw;
 }
 
 .image-block {
 }
 
 .image-block img {
-  width: 100%;
+   width: 100%;
 }
 
 .btn {
-  background: #458ff6;
-  border-radius: 55px;
-  font-family: Mulish;
-  font-style: normal;
-  font-weight: lighter;
-  font-size: 1.3vw;
-  line-height: 4.4vw;
-  color: #ffffff;
-  border: none;
-  margin-top: 2vw;
-  padding: 0 4vw;
+   background: #458ff6;
+   border-radius: 55px;
+   font-family: Mulish;
+   font-style: normal;
+   font-weight: lighter;
+   font-size: 1.3vw;
+   line-height: 4.4vw;
+   color: #ffffff;
+   border: none;
+   margin-top: 2vw;
+   padding: 0 4vw;
 }
 
 .btn-fill {
 }
 
 .btn-transparent {
-  background-color: white;
-  border: 0.1vw solid #458ff6;
-  box-sizing: border-box;
-  border-radius: 55px;
-  color: #458ff6;
+   background-color: white;
+   border: 0.1vw solid #458ff6;
+   box-sizing: border-box;
+   border-radius: 55px;
+   color: #458ff6;
 }
 
 .services {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 8vh;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 8vh;
 }
 .services-section {
-  background-image: url(img/bg-element.png);
-  background-position: left center;
-  background-repeat: no-repeat;
+   background-image: url(img/bg-element.png);
+   background-position: left center;
+   background-repeat: no-repeat;
 }
 
 .service-block {
-  width: 24vw;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  margin: 1vw;
-  min-width: 300px;
-  background: #ffffff;
-  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-  border-radius: 1.5vw;
-  padding: 2.5vw;
-  box-sizing: border-box;
+   width: 24vw;
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   margin: 1vw;
+   min-width: 300px;
+   background: #ffffff;
+   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+   border-radius: 1.5vw;
+   padding: 2.5vw;
+   box-sizing: border-box;
 }
 
 .service-block h5 {
-  font-size: 1.8vw;
-  line-height: 4vw;
-  margin: 0;
+   font-size: 1.8vw;
+   line-height: 4vw;
+   margin: 0;
 }
 
 .service-block p {
-  font-size: 1.1vw;
-  line-height: 2vw;
-  margin: 0;
+   font-size: 1.1vw;
+   line-height: 2vw;
+   margin: 0;
 }
 
 .service-block img {
-  max-width: 70%;
+   max-width: 70%;
 }
 
 .service-icon {
-  margin-bottom: 20px;
-  height: 6vw;
+   margin-bottom: 20px;
+   height: 6vw;
 }
 
 .service-icon img {
-  max-height: 100%;
+   max-height: 100%;
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  min-height: 400px;
-  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+   display: flex;
+   justify-content: center;
+   min-height: 400px;
+   background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
 }
 
 .footer-content {
-  width: 80vw;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+   width: 80vw;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
 }
 
 .footer-block {
-  width: 20%;
-  padding: 2vw;
-  box-sizing: border-box;
-  color: white;
-  min-width: 200px;
+   width: 20%;
+   padding: 2vw;
+   box-sizing: border-box;
+   color: white;
+   min-width: 200px;
 }
 
 .footer-info .footer-logo {
-  max-width: 70%;
+   max-width: 70%;
 }
 
 .footer-info .footer-logo img {
-  max-width: 100%;
+   max-width: 100%;
 }
 
 .footer-text p {
-  color: white;
-  opacity: 0.6;
-  font-size: 1vw;
+   color: white;
+   opacity: 0.6;
+   font-size: 1vw;
 }
 
 .third {
-  width: 40%;
+   width: 40%;
 }
 
 .footer-block h5 {
-  font-size: 1.8vw;
-  line-height: 3.7vw;
-  margin: 0;
-  font-weight: 400;
+   font-size: 1.8vw;
+   line-height: 3.7vw;
+   margin: 0;
+   font-weight: 400;
 }
 
 .footer-menu .footer-menu-nav {
-  flex-direction: column;
-  padding: 0;
+   flex-direction: column;
+   padding: 0;
 }
 
 .footer-menu .footer-menu-item {
-  padding: 0.5vw 0;
-  opacity: 1;
+   padding: 0.5vw 0;
+   opacity: 1;
 }
 
 .footer-menu .footer-menu-item a,
 .contacts div a,
 .contacts div span {
-  color: white;
-  opacity: 0.6;
-  font-size: 1vw;
-  font-weight: 300;
-  text-decoration: none;
+   color: white;
+   opacity: 0.6;
+   font-size: 1vw;
+   font-weight: 300;
+   text-decoration: none;
 }
 
 .contacts {
-  display: flex;
-  flex-direction: column;
-  margin: 1vw 0;
+   display: flex;
+   flex-direction: column;
+   margin: 1vw 0;
 }
 
 .contacts div {
-  font-size: 1vw;
-  line-height: 1.5vw;
-  padding: 0.5vw 0;
+   font-size: 1vw;
+   line-height: 1.5vw;
+   padding: 0.5vw 0;
 }
 .contacts div i {
-  font-size: 1.5vw;
-  margin-right: 0.5vw;
+   font-size: 1.5vw;
+   margin-right: 0.5vw;
 }
 
 .footer-form input {
-  height: 1em;
-  padding: 1.5em;
-  border: none;
-  margin: 1em 0;
-  border-radius: 15vw;
-  outline: none;
-  font-size: 1vw;
+   height: 1em;
+   padding: 1.5em;
+   border: none;
+   margin: 1em 0;
+   border-radius: 15vw;
+   outline: none;
+   font-size: 1vw;
+}
+
+.footer-form__input:focus {
+   animation: 1.4s ease-in-out infinite alternate form-focused;
+}
+
+@keyframes form-focused {
+   0% {
+      box-shadow: 0px 0px 5px 1px #458af6;
+   }
+   100% {
+      box-shadow: 0px 0px 15px 3px #456af1;
+   }
 }
 
 .footer-form .btn {
-  font-size: 1vw;
-  margin: 1em 0;
+   font-size: 1vw;
+   margin: 1em 0;
 }
 
 .cursor_pointer {
-  cursor: pointer;
+   cursor: pointer;
 }
 
 .cursor_pointer:hover {
-  cursor: pointer;
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 0.5s; /* don't forget to set a duration! */
+   cursor: pointer;
+   animation: pulse; /* referring directly to the animation's @keyframe declaration */
+   animation-duration: 0.5s; /* don't forget to set a duration! */
 }
