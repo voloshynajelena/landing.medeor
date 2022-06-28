@@ -5,7 +5,7 @@ const contactID = document.getElementById("contact");
 const btnConsult = document.getElementById("btnConsult");
 const consultInputName = document.getElementById("consultInputName");
 const goTopBtn = document.getElementById("backToTop");
-const headerLogo = document.getElementById("header");
+const header = document.getElementById("header");
 
 
 hamburger.addEventListener("click", mobileMenu);
