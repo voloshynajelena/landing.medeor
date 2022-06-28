@@ -4,7 +4,9 @@
   "description": "Landing page for medeor demo project",
   "main": "index.js",
   "scripts": {
-    "start": "http-server ."
+    "start": "http-server .",
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"**/*.css\" --syntax css"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,14 @@
   },
   "homepage": "https://github.com/voloshynajelena/landing.medeor#readme",
   "devDependencies": {
-    "http-server": "^0.12.3"
-  }
+    "@htmlacademy/editorconfig-cli": "1.0.0",
+    "http-server": "^0.12.3",
+    "stylelint": "13.13.1",
+    "stylelint-config-htmlacademy": "0.1.11"
+  },
+  "editorconfig-cli": [
+    "*.js",
+    "*.html",
+    "*.css"
+  ]
 }
