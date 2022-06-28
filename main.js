@@ -4,6 +4,8 @@ const navLink = document.querySelectorAll(".menu-item");
 const contactID = document.getElementById("contact");
 const btnConsult = document.getElementById("btnConsult");
 const consultInputName = document.getElementById("consultInputName");
+const goTopBtn = document.getElementById("backToTop");
+const header = document.getElementById("header");
 
 
 hamburger.addEventListener("click", mobileMenu);
@@ -23,3 +25,21 @@ btnConsult.addEventListener('click', () => {
   contactID.scrollIntoView({block: "center", behavior: "smooth"});
   consultInputName.focus();
 });
+
+window.addEventListener('scroll', trackScroll);
+
+function trackScroll() {
+  let scrolled = window.pageYOffset;
+  let coords = document.documentElement.clientHeight / 2;
+  if (scrolled > coords) {
+    goTopBtn.classList.add('btn-back-to-top--show');
+  }
+  if (scrolled < coords) {
+    goTopBtn.classList.remove ('btn-back-to-top--show');
+  }
+}
+
+
+goTopBtn.addEventListener('click', () => {
+  header.scrollIntoView({block: "center", behavior: "smooth"});
+});;
