@@ -41,5 +41,5 @@ function trackScroll() {
 
 
 goTopBtn.addEventListener('click', () => {
-  headerLogo.scrollIntoView({block: "center", behavior: "smooth"});
+  header.scrollIntoView({block: "center", behavior: "smooth"});
 });;
