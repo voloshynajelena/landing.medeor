@@ -309,6 +309,19 @@ p {
   font-size: 1vw;
 }
 
+.footer-form__input:focus {
+  animation: 1.4s ease-in-out infinite alternate form-focused;
+}
+
+@keyframes form-focused {
+  0% {
+    box-shadow: 0px 0px 10px 3px #458af6;
+  }
+  100% {
+    box-shadow: 0px 0px 20px 6px #456af1;
+  }
+}
+
 .footer-form .btn {
   font-size: 1vw;
   margin: 1em 0;
