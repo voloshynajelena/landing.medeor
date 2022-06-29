@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server .",
+    "build": "",
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint \"**/*.css\" --syntax css"
   },
